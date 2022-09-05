@@ -66,7 +66,6 @@ export const getTexture = (
     image.remove();
   };
   image.src = url;
-  console.log(image.src);
 
   cacheTexture(cacheKey ? cacheKey : url, texture);
   return texture;

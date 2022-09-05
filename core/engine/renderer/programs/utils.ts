@@ -124,7 +124,7 @@ export const initBuffers = (
     );
     gl.bindBuffer(gl.ARRAY_BUFFER, null);
     if (buffer) buffers[key] = buffer;
-    else console.log(`Couldn't Create ${key} buffer`);
+    else console.error(`Couldn't Create ${key} buffer`);
   });
 
   return buffers;

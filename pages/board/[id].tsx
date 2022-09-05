@@ -1,9 +1,10 @@
 import { FC } from "react";
+import Board from "../../components/board/Board";
 
-interface BoardProps {}
+interface BoardPageProps {}
 
-const Board: FC<BoardProps> = () => {
-  return <>Hello world</>;
+const BoardPage: FC<BoardPageProps> = () => {
+  return <><Board initSlide={0} initScene={""} /></>;
 };
 
-export default Board;
+export default BoardPage;

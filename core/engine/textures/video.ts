@@ -119,7 +119,7 @@ export const getVideoTexture = (
 
   const texture = initColorTexture(gl);
   if (!texture) {
-    console.log("color texture couldn't be made");
+    console.error("color texture couldn't be made");
     return;
   }
 

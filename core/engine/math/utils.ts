@@ -213,7 +213,6 @@ export const shiftToViewMatrix = (
   const viewScaling = mat4.getScaling([0, 0, 0], view);
   const viewTranslation = mat4.getTranslation([0, 0, 0], view);
   const position = [pointer.x / canvas.width, pointer.y / canvas.height];
-  // console.log(viewScaling);
   const x = (position[0] - viewTranslation[0]) * canvas.width;
   const y = (position[1] - viewTranslation[1]) * canvas.height;
   return { x, y } as PointerPosition;

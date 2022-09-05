@@ -1,0 +1,38 @@
+.appBar {
+  background: var(--chaalk-theme-light);
+  filter: drop-shadow(0 0 2px black);
+  transition: 0.3s;
+}
+
+.icon {
+  backdrop-filter: brightness(120%);
+  box-shadow: 0 0 15px rgb(43, 43, 43);
+  padding: 0.5rem;
+  margin-left: 1rem;
+  transition: 0.3s;
+}
+
+.icon:hover,
+.iconActive {
+  box-shadow: 0 0 3px black;
+}
+
+.icon:hover {
+  backdrop-filter: brightness(130%);
+}
+
+.iconActive {
+  backdrop-filter: brightness(150%);
+}
+
+.scaleSlider {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 20vh;
+}
+
+.toolTip {
+    font-size: 1.2rem;
+    font-family: Pacifico;
+}

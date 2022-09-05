@@ -28,6 +28,5 @@ export const getUser = (session: Session) => {
   const { settings } = useSettingsContext();
   let user = session.user as ClientUserData;
   user = getDeEscalatedUser(user, settings.clientDeEscalation);
-  console.log(user, settings.clientDeEscalation);
   return user;
 };

@@ -29,7 +29,7 @@ export const setBackgroundColor = (
   const color = hexToNormalizedRgb(hex, alpha);
 
   if (!color) {
-    console.log("Incorrect Hex and / or alpha Value Provided");
+    console.error("Incorrect Hex and / or alpha Value Provided");
     return;
   }
 

@@ -11,7 +11,7 @@ export const hexToNormalizedRgb = (hex: string, alpha = 1.0) => {
   const result = /^#?([a-fA-F\d]{2})([a-fA-F\d]{2})([a-fA-F\d]{2})$/i.exec(hex);
 
   if (alpha < 0 || alpha > 1) {
-    console.log("Incorrect Alpha Value, Correcting to 1.0");
+    console.error("Incorrect Alpha Value, Correcting to 1.0");
     alpha = 1.0;
   }
 

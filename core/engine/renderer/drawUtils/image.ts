@@ -156,6 +156,6 @@ export const drawImage = (
     const primitiveType = gl.TRIANGLE_STRIP;
     gl.drawArrays(primitiveType, 0, programInfo.pointCount);
   } else {
-    console.log("no texture");
+    console.error("no texture");
   }
 };
