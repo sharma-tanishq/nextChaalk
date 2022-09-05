@@ -1,4 +1,4 @@
-![Chaalk Logo](https://imgur.com/a/3ieTh1p)
+![Chaalk Logo](https://i.imgur.com/MFq5wDs.png)
 
 ### Chaalk Application
 
