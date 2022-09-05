@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico");
+
+:root {
+  --chaalk-theme-light: #8566cc;
+  --chaalk-theme-dark: #5726cd;
+}
+
+html {
+  background-color: rgb(216, 216, 216);
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(68, 68, 68);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(57, 57, 57), var(--chaalk-theme-dark));
+  border-radius: 10px;
+}

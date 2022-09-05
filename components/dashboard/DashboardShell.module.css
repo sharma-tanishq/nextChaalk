@@ -1,0 +1,14 @@
+.chaalkTheme {
+  background-color: var(--chaalk-theme-light);
+}
+
+.header {
+  font-size: 1.7rem;
+  font-family: "Pacifico", "Times New Roman", Times, serif;
+}
+
+.userInfo {
+  font-size: 1.5rem;
+  font-family: "Pacifico", "Times New Roman", Times, serif;
+  margin-left: auto;
+}
