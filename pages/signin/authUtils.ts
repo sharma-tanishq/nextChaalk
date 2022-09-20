@@ -30,3 +30,5 @@ export const getUser = (session: Session) => {
   user = getDeEscalatedUser(user, settings.clientDeEscalation);
   return user;
 };
+
+export default 1;
