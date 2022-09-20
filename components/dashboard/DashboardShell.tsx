@@ -26,7 +26,7 @@ import { useRouter } from "next/router";
 import { Session } from "next-auth";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Avatar } from "@mui/material";
-import { getUser } from "../../pages/signin/authUtils";
+import { getUser } from "../../authUtils";
 
 const drawerWidth = 240;
 

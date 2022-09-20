@@ -4,7 +4,7 @@ import { FC } from "react";
 import DashboardShell from "../../components/dashboard/DashboardShell";
 import { useSettingsContext } from "../../contexts/settings";
 import { UserType } from "../../prisma/enums";
-import { ClientUserData } from "../signin/authUtils";
+import { ClientUserData } from "../../authUtils";
 import defaultGetSSProps from "./defaultGetSSProps";
 import styles from "./settings.module.css";
 

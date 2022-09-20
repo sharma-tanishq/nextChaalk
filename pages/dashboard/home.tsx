@@ -5,7 +5,7 @@ import { FC } from "react";
 import BoardCard from "../../components/dashboard/BoardCard";
 import DashboardShell from "../../components/dashboard/DashboardShell";
 import { isCreator } from "../../prisma/perms";
-import { getUser } from "../signin/authUtils";
+import { getUser } from "../../authUtils";
 import defaultGetSSProps from "./defaultGetSSProps";
 import styles from "./home.module.css";
 

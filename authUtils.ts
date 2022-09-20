@@ -1,7 +1,7 @@
 import { Session } from "next-auth";
-import { useSettingsContext } from "../../contexts/settings";
-import { UserType } from "../../prisma/enums";
-import { canDeEscalateClient } from "../../prisma/perms";
+import { useSettingsContext } from "./contexts/settings";
+import { UserType } from "./prisma/enums";
+import { canDeEscalateClient } from "./prisma/perms";
 
 export interface ClientUserData {
   createdAt: string;
@@ -30,5 +30,3 @@ export const getUser = (session: Session) => {
   user = getDeEscalatedUser(user, settings.clientDeEscalation);
   return user;
 };
-
-export default 1;
